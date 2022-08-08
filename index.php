@@ -45,7 +45,7 @@ $mem_start = memory_get_usage();
 session_start();
 
 error_reporting(E_ALL);
-error_reporting(0);
+// error_reporting(0);
 
 //Після інсталяції НЕ ЗМІНЮВАТИ!
 define('WL_VERSION', '1.3');

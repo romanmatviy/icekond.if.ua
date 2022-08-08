@@ -494,7 +494,7 @@ ksort($reky[35]);
                 <img src="style/images/check.png" alt="check">
                 <p>Терміни виконання робіт</p>
             </div>
-            <form action="<?= SITE_URL ?>save/call-me" class="common-form ajax">
+            <form action="<?= SITE_URL ?>save/call-me?order=price" class="common-form ajax">
                 <label for="name-order-calculation flex">
                     <img src="style/images/name.svg" alt="name">
                     <input name="name" id="name-order-calculation" type="text" required placeholder="Ваше ім’я">
@@ -594,7 +594,7 @@ ksort($reky[35]);
 </section>
 <section id="order-calculation" class="order-calculation container">
     <h2 class="section-item">Замовляйте безкоштовний виїзд інженера на заміри</h2>
-    <form action="<?= SERVER_URL ?>save/call-me" class="common-form ajax">
+    <form action="<?= SERVER_URL ?>save/call-me?order=calculation" class="common-form ajax">
         <label for="name-order-calculation d-flex">
             <img src="style/images/name.svg" alt="name">
             <input name="name" id="name-order-calculation" type="text" required placeholder="Ваше ім’я">
